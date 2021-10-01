@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 7709526422262185624}
   - component: {fileID: 7709526422262185625}
   - component: {fileID: 7709526422262185626}
-  - component: {fileID: 7709526422262185629}
+  - component: {fileID: 479688193}
   m_Layer: 0
   m_Name: BaseEnemy
   m_TagString: Untagged
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 10
   _arrivalThreshold: 0.1
---- !u!114 &7709526422262185629
+--- !u!114 &479688193
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,10 +151,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7709526422262185627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfa6e590096e3b84bb3e0d47632590b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 276f9f577ca616e41ace23e3c52662e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _currentHealth: 0
