@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerHealthComponent : HealthComponent
 {
     [SerializeField] private PlayerHealthUI ui;
-    private void Start()
+    private void Start()    
     {
         ui.UpdateUI(currenthealth);
     }
